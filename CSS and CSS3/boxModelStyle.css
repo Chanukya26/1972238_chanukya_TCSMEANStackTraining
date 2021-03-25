@@ -1,0 +1,10 @@
+div{
+    padding: 30px;
+    border: red solid 30px ;
+    margin: 30px;
+    width: 100px;
+    height: 200px;
+    float: left;
+    border-radius: 40px;
+    
+}

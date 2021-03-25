@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript">
+        function display()
+        {
+            alert("welcome to js function")
+        }
+        function addName()
+        {
+         //retrive the value using name attribute.
+         //two tags contain same name.
+           // var name=document.getElementByName("user")[0].value;
+            //alert("Welcome"+name);
+            //retrive the value using id attribute.
+            //id must be unique in web page
+            var name=document.getElementById("user").value;
+            alert("name is"+name)
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value ="click here" onclick="display()"/>
+    <input type="button" value ="on Mouse Over" onmouseover="display()"/>
+    Name:<input type="text" name="user" id="user" />
+    <br/>
+    <input type="button" value="Add Name" onclick="addName()"/>
+</body>
+</html>
